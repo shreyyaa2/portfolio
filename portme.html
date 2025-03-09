@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #0a192f, #112240);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .fancy-line {
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #64ffda, #00bcd4, #64ffda);
+    margin: 30px auto;
+    width: 60%;
+    border-radius: 5px;
+}
+
+        header {
+            background: #020c1b;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li
+        {
+          list-style-type: none;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+            list-style-type: none;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .card {
+            background: #1b2a49;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+        }
+        .card a {
+            color: #64ffda;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #skills {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.skill-box {
+    background: #1b2a49;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+#certifications {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.certification-box {
+    background: #1b2a49;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.certification-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.certification-box a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #64ffda;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.certification-box a:hover {
+    background: #00bcd4;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certification</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Hi, I'm Shreya B</h1>
+        <p>Engineering student | Data Science Enthusiast | Web Developer</p>
+        <hr class="fancy-line">
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate engineering student with expertise in Data Science, Web Development, and AI/ML. </p>
+          <p>Enthusiastic about solving real-world problems through technology and innovation.</p>  
+          <p>Experienced in hackathons, research, and hands-on projects across multiple domains.</p>
+          <hr class="fancy-line">
+    </section>
+    
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+          <div class="skill-box">Python</div>
+          <div class="skill-box">Machine Learning</div>
+          <div class="skill-box">Web Development</div>
+          <div class="skill-box">Java</div>
+          <div class="skill-box">MongoDB</div>
+          <div class="skill-box">DSA</div>
+          <div class="skill-box">GStreamer</div>
+          <div class="skill-box">OOPS</div>
+      </div>
+      <hr class="fancy-line">
+  </section>
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+        <div class="certification-box">
+            <h3>Kaggle AI/ML</h3>
+            <p>Completed AI and ML certification on Kaggle.</p>
+            <a href="https://drive.google.com/file/d/1Br2jucRPENAvDFJHpTXQfF2-2We7_btW/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>Foundation in Data Science</h3>
+            <p>Basics of data analysis, statistics, and ML.</p>
+            <a href="https://storage.googleapis.com/online-degree-app-production-documents/CERTIFICATE/FOUNDATION_CERTIFICATE/F3_2023/cb54b0ad4ba0d6fa10c826d909e89a583b1f703d8a9206698b19c98417af756e.pdf?Expires=1741534172&GoogleAccessId=production-document-storage-si%40online-degree-app.iam.gserviceaccount.com&Signature=I9R%2BuVNru1OonZcDMYDvAiyDVIIxvMuE5cx%2FRneED5VLCm%2BDiMxh%2FBD%2BiV4Vv5kitRr5cFqQsRCQQysQXYue%2FVgpYKp338UkSGcd8x%2Fl17BGjCLdagi4imeJ4qp%2BCFy0dxrNxGBEC1HWCaI8247zZi0%2By3n7S7MPpvOQutAhfwnx7N2kUbPxY0QOXBJRKXyyewsOOFgwRrzs9rHyYoZ5oJUoXaUCQnn1jxEd5YBbtCO9UvTkryLmwVsRHzoNe0kC2svOgHY%2FWDa1z62dJXjUxDq0gw0EHtEc1iZMt3fyfpEL9OS2hJ6i6O1qtvc1%2FlL7yZ6J%2FOqIAuofKUyiPZhMhA%3D%3D" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>Privacy and Security in OSM</h3>
+            <p>Learned security and privacy aspects in Online Social Media.</p>
+            <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/transcript_download.php" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>CCNA</h3>
+            <p>Gained networking skills in Cisco CCNA certification.</p>
+            <a href="https://www.credly.com/badges/99843b9d-b78d-4dc2-bf8c-997a2c48f566/public_url" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>Introduction to IoT</h3>
+            <p>Explored IoT applications and fundamentals.</p>
+            <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs115" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>Video Processing Internship</h3>
+            <p>Worked on media streaming and WebRTC.</p>
+            <a href="https://drive.google.com/file/d/1SCgtb-tQdpv6W0ggPfO5JtypyPAQMzc6/view?usp=drive_link" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>Web Dev Concepts</h3>
+            <p>Fundamentals of frontend and backend development.</p>
+            <a href="#" target="_blank">View Certificate</a>
+        </div>
+        <div class="certification-box">
+            <h3>Embedded Programming Challenge</h3>
+            <p>Hands-on experience with embedded systems coding.</p>
+            <a href="#" target="_blank">View Certificate</a>
+        </div>
+    </div>
+    <hr class="fancy-line">
+</section>
+
+
+  
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Fake News Detector using AI</h3>
+            <p>Developed a machine learning model to detect fake news with high accuracy using NLP techniques.</p>
+            <a href="https://github.com/shreyyaa2/Fake-news-detector">View Project</a>
+        </div>
+        <div class="card">
+            <h3>Skill-Based Worker Swapping System</h3>
+            <p>Implemented a WebSocket API for real-time worker substitution based on skill matching.</p>
+            <a href="https://github.com/priyanjanaaa/innothon">View Project</a>
+        </div>
+        <div class="card">
+          <h3>Video Processing Internship</h3>
+          <p>Developed scalable video processing pipelines using Kubernetes and GStreamer.  
+             Integrated auto-scaling, GPU acceleration, and distributed processing for real-time video analytics.  
+             Enhanced streaming efficiency with WebRTC and GStreamer for high-performance media rendering.</p>
+          <a href="https://drive.google.com/file/d/1SCgtb-tQdpv6W0ggPfO5JtypyPAQMzc6/view?usp=drive_link">View Project</a>
+      </div>
+        <hr class="fancy-line">
+    </section>
+    
+    <section id="internship">
+        <h2>Internship</h2>
+        <div class="card">
+            <h3>WebRTC-based Media Streaming Project</h3>
+            <p>Worked on a WebRTC-based media streaming project, enhancing observability and performance of client-server pipelines. Implemented tools like GStreamer (GST) for audio and video rendering and utilized Git for cloning WebRTC repositories.</p>
+            <p>Implemented scalable video processing pipelines using Kubernetes and GStreamer, leveraging auto-scaling, GPU acceleration, and distributed processing for live streaming and real-time video analytics.</p>
+           
+        </div>
+        <hr class="fancy-line">
+    </section>
+    
+    <section id="contact">
+        <h1>Contact Me</h1>
+        
+        <p>LinkedIn:  http://www.linkedin.com/in/shreya-b-0a351b259</p>
+        <p>Github:  https://github.com/shreyyaa2</p>
+        <p>Email:shreya8rams@gmail.com</p>
+        <p>Contact NO: +91 7305244565</p>
+    </section>
+    
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('mouseover', () => link.style.color = '#00bcd4');
+            link.addEventListener('mouseleave', () => link.style.color = '#64ffda');
+        });
+    </script>
+</body>
+</html>
